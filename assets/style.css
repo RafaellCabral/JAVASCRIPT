@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@900&display=swap');
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    background-color: #6aec6f;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
+.container {
+    align-items: center;
+    position: flex;
+    max-width: 850px;
+    margin: 70px auto;
+    background: #fff;
+    padding: 30px;
+    display: fixed;
+    border-radius: 10px;
+}
+
+form label,
+form input,
+form button {
+    width: auto;
+    display: block;
+    margin-top: 6px;
+}
+
+label {
+    padding: 5px;
+    align-items: center;
+    display: flex;
+}
+
+input {
+    padding: 0 190px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+
+/*form input:focus {
+    outline: 1px solid #83f183;
+}
+
+button {
+display: flex;
+    padding: 0 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+    height: 40px;
+    border: none;
+    background-color: #64be89;
+    color: #fff;
+    font-weight: 700;
+    font-size: larger;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #17f799;
+}

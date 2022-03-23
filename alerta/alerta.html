@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<title> Registration or Sign Up form in HTML CSS | CodingLab </title>-->
+    <script src="alerta.js"></script>
+    <title> JAVASCRIPT </title>
+</head>
+
+<body>
+    <script>
+        const nome = prompt('digite seu nome completo:');
+        document.body.innerHTML += `Seu nome é: <strong>${nome} </strong><br/>`;
+        document.body.innerHTML += `Seu nome tem : ${nome.length} letras <br/>`;
+        document.body.innerHTML += ` A primeira letra do Seu nome é: ${nome[1]}<br/>`;
+        document.body.innerHTML += ` Qual a primeira letra A no seu nome : ${nome.indexOf('a')} <br/>`;
+        document.body.innerHTML += ` As últimas 5 letras do seu nome são: ${nome.slice(-6)} <br/>`;
+        document.body.innerHTML += `Seu nome com letras maiúsculas: ${nome.toLocaleUpperCase()} <br/>`;
+        document.body.innerHTML += `Seu nome com letras minúsculas: ${nome.toLocaleLowerCase()} <br/>`;
+    </script>
+</body>
